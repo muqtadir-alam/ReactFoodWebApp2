@@ -1,4 +1,4 @@
-.container{
+ .container{
     display: flex;
       align-items: center;
       justify-content: space-evenly;
@@ -56,4 +56,20 @@
       border-radius: .2rem;
       cursor: pointer;
       
+    } 
+
+
+    .customOverlay {
+      background: rgba(36, 123, 160, 0.7);
+    }
+    .customModal {
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: white;
+      max-width: 500px;
+      width: 100%;
+      position: fixed;
+      top:12rem;
+      left:23rem;
     }
